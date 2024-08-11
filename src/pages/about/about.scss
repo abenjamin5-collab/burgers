@@ -1,0 +1,43 @@
+page-about {
+    page-about {
+        ion-header {
+          background-color: #f8f9fa;
+        }
+      
+        ion-navbar {
+          background-color: #007bff;
+          color: #fff;
+      
+          ion-title {
+            color: #fff;
+          }
+        }
+      
+        ion-content {
+          background-color: #ffffff;
+      
+          ion-card {
+            background-color: #f1f1f1;
+            border: 1px solid #ccc;
+            margin: 10px;
+            padding: 10px;
+      
+            ion-card-header {
+              background-color: #007bff;
+              color: #fff;
+              padding: 10px;
+              font-size: 1.2em;
+            }
+      
+            ion-card-content {
+              p {
+                color: #333;
+                margin-bottom: 10px;
+              }
+            }
+          }
+        }
+      }
+      
+
+}

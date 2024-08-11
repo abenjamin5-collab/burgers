@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Profile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngIf="user">
+    <ion-card-header>
+      <ion-card-title>{{ user?.name }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Email: {{ user?.email }}</p>
+      <!-- Add other profile fields -->
+    </ion-card-content>
+  </ion-card>
+</ion-content>
